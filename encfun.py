@@ -25,7 +25,7 @@ def banner():
 """, title="[bold]Python Obfuscator[/bold]", expand=False))
 
 def get_file_paths():
-		file_path = questionary.text("Enter the path of the input file:", default="file.py").ask()
+		file_path = questionary.text("Enter the path of the input file:", default="/sdcard/folder/file.py").ask()
 		output_path = questionary.text("Enter the path of the output file:", default="fileob.py").ask()
 		return file_path, output_path
 
