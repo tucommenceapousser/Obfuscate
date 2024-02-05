@@ -8,7 +8,7 @@ $ pip install rich
 # RUN
 ```
 $ rm -rf Obfuscate
-$ git clone https://github.com/BOY-H4MZ4H/Obfuscate
+$ git clone https://github.com/tucommenceapousser/Obfuscate
 $ cd Obfuscate
-$ python enc.py
+$ python main.py
 ```
